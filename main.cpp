@@ -16,7 +16,6 @@ int main(int argc, char *argv[])
     w.showMaximized();
 
     QMessageBox *box = new QMessageBox();
-
     Barajas *baraja = new Barajas();
     Game *juego = new Game();
     MainWindow *mw = new MainWindow();
@@ -25,9 +24,9 @@ int main(int argc, char *argv[])
 //    char colo = baraja->Baraja[20]->getColor();
 //    char pal = baraja->Baraja[20]->getPalo();
 
-//        int number = juego->Corazones[12]->getNumero();
-//        char colo = juego->Corazones[12]->getColor();
-//        char pal = juego->Corazones[12]->getPalo();
+//    int number = juego->Corazones[12]->getNumero();
+//    char colo = juego->Corazones[12]->getColor();
+//    char pal = juego->Corazones[12]->getPalo();
 
 //    int number = mw->Barajeada[0]->getNumero();
 //    char colo = mw->Barajeada[0]->getColor();
@@ -45,7 +44,7 @@ int main(int argc, char *argv[])
 
 
 
-    //box->setText(numero + colore + palore);
+//    box->setText(palore + numero + colore);
     //box->show();
 
 

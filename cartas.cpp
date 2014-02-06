@@ -25,6 +25,11 @@ bool Cartas::getUsada()
     return this->usada;
 }
 
+QPixmap Cartas::getImagen()
+{
+    return this->imagen;
+}
+
 void Cartas::setColor(char color)
 {
     if(color == 'r' || color == 'n')
@@ -46,4 +51,9 @@ void Cartas::setPalo(char palo)
 void Cartas::setUsada(bool usa)
 {
     this->usada = usa;
+}
+
+void Cartas::setImagen(QPixmap imagen)
+{
+    this->imagen = imagen;
 }

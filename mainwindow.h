@@ -8,6 +8,8 @@
 
 #include <QMainWindow>
 #include "qtoolbar.h"
+#include<stdlib.h>
+#include<time.h>
 
 namespace Ui {
 class MainWindow;
@@ -30,8 +32,7 @@ private:
     Ui::MainWindow *ui;
     Barajas todasLasCartas;
     int cantidad;
-
-    void llenarDeCartas();
+    void generarMillonesDeBurritos();
 
     void barajear(int cant);
 };
