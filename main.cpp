@@ -17,9 +17,9 @@ int main(int argc, char *argv[])
 
     Barajas *baraja = new Barajas();
 
-    int number = baraja->Baraja[43]->getNumero();
-    char colo = baraja->Baraja[43]->getColor();
-    char pal = baraja->Baraja[43]->getPalo();
+    int number = baraja->Baraja[20]->getNumero();
+    char colo = baraja->Baraja[20]->getColor();
+    char pal = baraja->Baraja[20]->getPalo();
 
 //    int number = baraja->Corazones[1]->getNumero();
 //    char colo = baraja->Corazones[1]->getColor();
