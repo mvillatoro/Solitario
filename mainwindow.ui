@@ -439,6 +439,16 @@
      <bool>true</bool>
     </property>
    </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>520</y>
+      <width>120</width>
+      <height>80</height>
+     </rect>
+    </property>
+   </widget>
    <zorder>fondoFieltro</zorder>
    <zorder>escaleraCompleta1</zorder>
    <zorder>escaleraCompleta3</zorder>
@@ -453,6 +463,7 @@
    <zorder>escalera6</zorder>
    <zorder>escalera7</zorder>
    <zorder>escalera5</zorder>
+   <zorder>widget</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">

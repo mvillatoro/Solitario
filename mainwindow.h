@@ -1,6 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 #include "qpixmap.h"
+#include "qlabel.h"
 
 #include <QMainWindow>
 #include "qtoolbar.h"
@@ -17,6 +18,7 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
     QPixmap primer;
+    QLabel imagenEscalera;
 
 private slots:
     void on_actionAcerca_de_triggered();

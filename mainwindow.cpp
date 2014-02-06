@@ -8,8 +8,9 @@ MainWindow::MainWindow(QWidget *parent) :
 {
 
     primer.load(":/Images/c01r.png");
-    //ui->escalera1->setPixmap(primer);
-    //ui->escalera1->setMask(primer.mask());
+    imagenEscalera.setPixmap(primer);
+    //ui->escalera1->setText("lol");
+    //ui->widget->b
     ui->setupUi(this);
 
 }
