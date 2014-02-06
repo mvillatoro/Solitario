@@ -1,11 +1,11 @@
 #include "Lista.h"
 
+/*
 Lista::Lista()
 {
     inicio=final=actual=0;
     cuantos=0;
 }
-
 void Lista::agregar(Carta naipe)
 {
     nodo* tmp;
@@ -55,3 +55,4 @@ Cartas Lista::getvalor(int pos)
             temp = temp->sig;
     }
 }
+*/

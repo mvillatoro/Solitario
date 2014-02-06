@@ -1,14 +1,14 @@
 #ifndef LISTA_H
 #define LISTA_H
-
+/*
 #include "cartas.h"
 
 class nodo{
 public:
-    int numero;
+    Cartas naipe;
     nodo* sig;
     nodo* ant;
-    nodo(int val){  sig=ant=0;    numero=val;         }
+    nodo(Cartas val){  sig=ant=0;    this->naipe = new Cartas();         }
 };
 
 class Lista
@@ -27,5 +27,5 @@ public:
     int cuantos;
 
 };
-
+*/
 #endif // LISTA_H

@@ -1,6 +1,6 @@
 #ifndef CARTAS_H
 #define CARTAS_H
-#include "mainwindow.h"
+#include "lista.h"
 
 class Cartas
 {
@@ -16,12 +16,17 @@ public:
     void setColor(char color);
     void setPalo(char palo);
 
+    void addALista();
+    void buscarEnLista();
+    //Lista elementos;
+
 private:
 
     //Variables
     int numero;
     char color;
     char palo;
+
 
 
 

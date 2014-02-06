@@ -4,7 +4,6 @@ Barajas::Barajas()
 {
     contador = 0;
     crearBaraja();
-    //llenarSubBarajas();
 }
 
 void Barajas::crearBaraja()
@@ -16,25 +15,25 @@ void Barajas::crearBaraja()
         {
             if(p==0) //crea los corazones
             {
-                crearCarta(n+1,'r','c',contador);
+                crearCarta('c', n+1,'r',contador);
             }
             else if(p==1) // crea los diamantes
             {
-                crearCarta(n+1,'r','d',contador);
+                crearCarta('d', n+1,'r',contador);
             }
             else if(p==2) // crea las espadas
             {
-                crearCarta(n+1,'n','e',contador);
+                crearCarta('e',n+1,'n',contador);
             }
             else if(p==3) // crea los treboles
             {
-                crearCarta(n+1,'n','t',contador);
+                crearCarta('t',n+1,'n',contador);
             }
         }
     }
 }
 
-void Barajas::crearCarta(int numero, char color, char palo , int pos)
+void Barajas::crearCarta(char palo ,int numero, char color, int pos)
 {
     this->Baraja[pos] = new Cartas();
 

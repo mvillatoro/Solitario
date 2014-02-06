@@ -15,7 +15,7 @@ private:
     int contador;
 
     void crearBaraja();
-    void crearCarta(int numero, char color, char palo, int pos);
+    void crearCarta(char palo, int numero, char color, int pos);
 
 };
 
