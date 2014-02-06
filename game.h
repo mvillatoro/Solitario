@@ -1,6 +1,7 @@
 #ifndef GAME_H
 #define GAME_H
 #include "barajas.h"
+#include "lista.h"
 
 
 class Game

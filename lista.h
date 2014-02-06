@@ -1,6 +1,8 @@
 #ifndef LISTA_H
 #define LISTA_H
 
+#include "cartas.h"
+
 class nodo{
 public:
     int numero;
@@ -12,13 +14,11 @@ public:
 class Lista
 {
 public:
-Lista();
-    void agregar(int valor);
-    void insertar(int valor, int pos);
-    int buscar(int valor);
+    Lista();
+    void agregar(Cartas naipe);
+    int buscar(Cartas naipe);
     int getlength();
-    int getvalor(int pos);
-    void borrar_al_inicio();
+    Cartas getvalor(int pos);
 
     private:
     nodo* inicio;
