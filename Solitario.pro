@@ -16,12 +16,14 @@ SOURCES += main.cpp\
         mainwindow.cpp \
     cartas.cpp \
     barajas.cpp \
-    game.cpp
+    game.cpp \
+    lista.cpp
 
 HEADERS  += mainwindow.h \
     cartas.h \
     barajas.h \
-    game.h
+    game.h \
+    lista.h
 
 FORMS    += mainwindow.ui
 
