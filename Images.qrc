@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images Solitario/x back.png</file>
+        <file>Images Solitario/x fieltro vede.jpg</file>
+        <file>Images Solitario/x vacio.png</file>
+    </qresource>
+</RCC>
