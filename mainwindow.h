@@ -33,8 +33,7 @@ private:
     Barajas todasLasCartas;
     int cantidad;
     void generarMillonesDeBurritos();
-
-    void barajear(int cant);
+    void barajear(int cant, int random);
 };
 
 #endif // MAINWINDOW_H

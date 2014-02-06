@@ -15,10 +15,10 @@ int main(int argc, char *argv[])
     MainWindow w;
     w.showMaximized();
 
-    QMessageBox *box = new QMessageBox();
-    Barajas *baraja = new Barajas();
-    Game *juego = new Game();
-    MainWindow *mw = new MainWindow();
+    //QMessageBox *box = new QMessageBox();
+    //Barajas *baraja = new Barajas();
+    //Game *juego = new Game();
+    //MainWindow *mw = new MainWindow();
 
 //    int number = baraja->Baraja[20]->getNumero();
 //    char colo = baraja->Baraja[20]->getColor();
