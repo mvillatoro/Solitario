@@ -52,14 +52,14 @@
         <file>Images Solitario/t11n.png</file>
         <file>Images Solitario/t12n.png</file>
         <file>Images Solitario/t13n.png</file>
-        <file>Images Solitario/x  back avengers.png</file>
-        <file>Images Solitario/x back.png</file>
-        <file>Images Solitario/x fieltro avengers.jpg</file>
-        <file>Images Solitario/x fieltro azul.jpg</file>
-        <file>Images Solitario/x fieltro especial 2.png</file>
-        <file>Images Solitario/x fieltro especial.png</file>
-        <file>Images Solitario/x fieltro vede.jpg</file>
-        <file>Images Solitario/x happy face.png</file>
-        <file>Images Solitario/x vacio.png</file>
+        <file>Images Solitario/x_back.png</file>
+        <file>Images Solitario/x_back_avengers.png</file>
+        <file>Images Solitario/x_fieltro_avengers.jpg</file>
+        <file>Images Solitario/x_fieltro_azul.jpg</file>
+        <file>Images Solitario/x_fieltro_especial.png</file>
+        <file>Images Solitario/x_fieltro_especial_2.png</file>
+        <file>Images Solitario/x_fieltro_vede.jpg</file>
+        <file>Images Solitario/x_happy_face.png</file>
+        <file>Images Solitario/x_vacio.png</file>
     </qresource>
 </RCC>
