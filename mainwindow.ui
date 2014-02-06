@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1546</width>
-    <height>819</height>
+    <width>1603</width>
+    <height>1254</height>
    </rect>
   </property>
   <property name="acceptDrops">
@@ -17,7 +17,10 @@
    <string>MainWindow</string>
   </property>
   <property name="autoFillBackground">
-   <bool>true</bool>
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/Images/x_fieltro_avengers.jpg);</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QLabel" name="escaleraCompleta1">
@@ -48,7 +51,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="Images.qrc">:/Images Solitario/x vacio.png</pixmap>
+     <pixmap resource="Images.qrc">:/Images/x_vacio.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -76,7 +79,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="Images.qrc">:/Images Solitario/x vacio.png</pixmap>
+     <pixmap resource="Images.qrc">:/Images/x_vacio.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -107,7 +110,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="Images.qrc">:/Images Solitario/x vacio.png</pixmap>
+     <pixmap resource="Images.qrc">:/Images/x_vacio.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -135,7 +138,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="Images.qrc">:/Images Solitario/x vacio.png</pixmap>
+     <pixmap resource="Images.qrc">:/Images/x_vacio.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -175,7 +178,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="Images.qrc">:/Images Solitario/x vacio.png</pixmap>
+     <pixmap resource="Images.qrc">:/Images/x_vacio.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -206,26 +209,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="Images.qrc">:/Images Solitario/x back.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="fondoFieltro">
-    <property name="geometry">
-     <rect>
-      <x>-60</x>
-      <y>-20</y>
-      <width>1651</width>
-      <height>1051</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap resource="Images.qrc">:/Images Solitario/x fieltro vede.jpg</pixmap>
+     <pixmap resource="Images.qrc">:/Images/x_back_avengers.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -259,7 +243,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="Images.qrc">:/Images Solitario/x vacio.png</pixmap>
+     <pixmap resource="Images.qrc">:/Images/x_vacio.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -287,7 +271,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="Images.qrc">:/Images Solitario/x vacio.png</pixmap>
+     <pixmap resource="Images.qrc">:/Images/x_vacio.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -315,7 +299,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="Images.qrc">:/Images Solitario/x vacio.png</pixmap>
+     <pixmap resource="Images.qrc">:/Images/x_vacio.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -343,7 +327,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="Images.qrc">:/Images Solitario/x vacio.png</pixmap>
+     <pixmap resource="Images.qrc">:/Images/x_vacio.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -371,7 +355,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="Images.qrc">:/Images Solitario/x vacio.png</pixmap>
+     <pixmap resource="Images.qrc">:/Images/x_vacio.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -399,7 +383,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="Images.qrc">:/Images Solitario/x vacio.png</pixmap>
+     <pixmap resource="Images.qrc">:/Images/x_vacio.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -433,44 +417,19 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="Images.qrc">:/Images Solitario/x vacio.png</pixmap>
+     <pixmap resource="Images.qrc">:/Images/x_vacio.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QWidget" name="widget" native="true">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>520</y>
-      <width>120</width>
-      <height>80</height>
-     </rect>
-    </property>
-   </widget>
-   <zorder>fondoFieltro</zorder>
-   <zorder>escaleraCompleta1</zorder>
-   <zorder>escaleraCompleta3</zorder>
-   <zorder>escaleraCompleta4</zorder>
-   <zorder>escaleraCompleta2</zorder>
-   <zorder>CartasMostradas</zorder>
-   <zorder>cartasOcultas</zorder>
-   <zorder>escalera1</zorder>
-   <zorder>escalera3</zorder>
-   <zorder>escalera2</zorder>
-   <zorder>escalera4</zorder>
-   <zorder>escalera6</zorder>
-   <zorder>escalera7</zorder>
-   <zorder>escalera5</zorder>
-   <zorder>widget</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1546</width>
+     <width>1603</width>
      <height>21</height>
     </rect>
    </property>

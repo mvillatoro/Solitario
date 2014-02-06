@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
 
 
     box->setText(numero + colore + palore);
-    box->show();
+    //box->show();
 
 
     return a.exec();

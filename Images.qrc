@@ -1,65 +1,65 @@
 <RCC>
     <qresource prefix="/">
-        <file>Images Solitario/c01r.png</file>
-        <file>Images Solitario/c02r.png</file>
-        <file>Images Solitario/c03r.png</file>
-        <file>Images Solitario/c04r.png</file>
-        <file>Images Solitario/c05r.png</file>
-        <file>Images Solitario/c06r.png</file>
-        <file>Images Solitario/c07r.png</file>
-        <file>Images Solitario/c08r.png</file>
-        <file>Images Solitario/c09r.png</file>
-        <file>Images Solitario/c10r.png</file>
-        <file>Images Solitario/c11r.png</file>
-        <file>Images Solitario/c12r.png</file>
-        <file>Images Solitario/c13r.png</file>
-        <file>Images Solitario/d01r.png</file>
-        <file>Images Solitario/d02r.png</file>
-        <file>Images Solitario/d03r.png</file>
-        <file>Images Solitario/d04r.png</file>
-        <file>Images Solitario/d05r.png</file>
-        <file>Images Solitario/d06r.png</file>
-        <file>Images Solitario/d07r.png</file>
-        <file>Images Solitario/d08r.png</file>
-        <file>Images Solitario/d09r.png</file>
-        <file>Images Solitario/d10r.png</file>
-        <file>Images Solitario/d11r.png</file>
-        <file>Images Solitario/d12r.png</file>
-        <file>Images Solitario/d13r.png</file>
-        <file>Images Solitario/e01n.png</file>
-        <file>Images Solitario/e02n.png</file>
-        <file>Images Solitario/e03n.png</file>
-        <file>Images Solitario/e04n.png</file>
-        <file>Images Solitario/e05n.png</file>
-        <file>Images Solitario/e06n.png</file>
-        <file>Images Solitario/e07n.png</file>
-        <file>Images Solitario/e08n.png</file>
-        <file>Images Solitario/e09n.png</file>
-        <file>Images Solitario/e10n.png</file>
-        <file>Images Solitario/e11n.png</file>
-        <file>Images Solitario/e12n.png</file>
-        <file>Images Solitario/e13n.png</file>
-        <file>Images Solitario/t01n.png</file>
-        <file>Images Solitario/t02n.png</file>
-        <file>Images Solitario/t03n.png</file>
-        <file>Images Solitario/t04n.png</file>
-        <file>Images Solitario/t05n.png</file>
-        <file>Images Solitario/t06n.png</file>
-        <file>Images Solitario/t07n.png</file>
-        <file>Images Solitario/t08n.png</file>
-        <file>Images Solitario/t09n.png</file>
-        <file>Images Solitario/t10n.png</file>
-        <file>Images Solitario/t11n.png</file>
-        <file>Images Solitario/t12n.png</file>
-        <file>Images Solitario/t13n.png</file>
-        <file>Images Solitario/x_back.png</file>
-        <file>Images Solitario/x_back_avengers.png</file>
-        <file>Images Solitario/x_fieltro_avengers.jpg</file>
-        <file>Images Solitario/x_fieltro_azul.jpg</file>
-        <file>Images Solitario/x_fieltro_especial.png</file>
-        <file>Images Solitario/x_fieltro_especial_2.png</file>
-        <file>Images Solitario/x_fieltro_vede.jpg</file>
-        <file>Images Solitario/x_happy_face.png</file>
-        <file>Images Solitario/x_vacio.png</file>
+        <file>Images/c01r.png</file>
+        <file>Images/c02r.png</file>
+        <file>Images/c03r.png</file>
+        <file>Images/c04r.png</file>
+        <file>Images/c05r.png</file>
+        <file>Images/c06r.png</file>
+        <file>Images/c07r.png</file>
+        <file>Images/c08r.png</file>
+        <file>Images/c09r.png</file>
+        <file>Images/c10r.png</file>
+        <file>Images/c11r.png</file>
+        <file>Images/c12r.png</file>
+        <file>Images/c13r.png</file>
+        <file>Images/d01r.png</file>
+        <file>Images/d02r.png</file>
+        <file>Images/d03r.png</file>
+        <file>Images/d04r.png</file>
+        <file>Images/d05r.png</file>
+        <file>Images/d06r.png</file>
+        <file>Images/d07r.png</file>
+        <file>Images/d08r.png</file>
+        <file>Images/d09r.png</file>
+        <file>Images/d10r.png</file>
+        <file>Images/d11r.png</file>
+        <file>Images/d12r.png</file>
+        <file>Images/d13r.png</file>
+        <file>Images/e01n.png</file>
+        <file>Images/e02n.png</file>
+        <file>Images/e03n.png</file>
+        <file>Images/e04n.png</file>
+        <file>Images/e05n.png</file>
+        <file>Images/e06n.png</file>
+        <file>Images/e07n.png</file>
+        <file>Images/e08n.png</file>
+        <file>Images/e09n.png</file>
+        <file>Images/e10n.png</file>
+        <file>Images/e11n.png</file>
+        <file>Images/e12n.png</file>
+        <file>Images/e13n.png</file>
+        <file>Images/t01n.png</file>
+        <file>Images/t02n.png</file>
+        <file>Images/t03n.png</file>
+        <file>Images/t04n.png</file>
+        <file>Images/t05n.png</file>
+        <file>Images/t06n.png</file>
+        <file>Images/t07n.png</file>
+        <file>Images/t08n.png</file>
+        <file>Images/t09n.png</file>
+        <file>Images/t10n.png</file>
+        <file>Images/t11n.png</file>
+        <file>Images/t12n.png</file>
+        <file>Images/t13n.png</file>
+        <file>Images/x_back.png</file>
+        <file>Images/x_back_avengers.png</file>
+        <file>Images/x_fieltro_avengers.jpg</file>
+        <file>Images/x_fieltro_azul.jpg</file>
+        <file>Images/x_fieltro_especial.png</file>
+        <file>Images/x_fieltro_especial_2.png</file>
+        <file>Images/x_fieltro_vede.jpg</file>
+        <file>Images/x_happy_face.png</file>
+        <file>Images/x_vacio.png</file>
     </qresource>
 </RCC>

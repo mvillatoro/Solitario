@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 #include "qpixmap.h"
 #include "qlabel.h"
+#include "qmessagebox.h"
+#include "barajas.h"
 
 #include <QMainWindow>
 #include "qtoolbar.h"
@@ -17,15 +19,14 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
-    QPixmap primer;
-    QLabel imagenEscalera;
 
 private slots:
     void on_actionAcerca_de_triggered();
 
 private:
     Ui::MainWindow *ui;
-
+    Barajas todasLasCartas;
+    void llenarDeCartas();
 
 };
 
