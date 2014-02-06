@@ -2,6 +2,7 @@
 
 Cartas::Cartas()
 {
+    this->usada = false;
 }
 
 char Cartas::getColor()
@@ -19,6 +20,11 @@ char Cartas::getPalo()
     return this->palo;
 }
 
+bool Cartas::getUsada()
+{
+    return this->usada;
+}
+
 void Cartas::setColor(char color)
 {
     if(color == 'r' || color == 'n')
@@ -34,5 +40,10 @@ void Cartas::setNumero(int numero)
 void Cartas::setPalo(char palo)
 {
     if(palo == 'e' ||palo == 't' ||palo == 'c' ||palo == 'd')
-    this->palo = palo;
+        this->palo = palo;
+}
+
+void Cartas::setUsada(bool usa)
+{
+    this->usada = usa;
 }

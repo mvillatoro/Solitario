@@ -7,14 +7,16 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
 
-        QPixmap mypix(":/Images/c01r.png");
-        QLabel *i=new QLabel(this);
-        i->setPixmap(mypix);
-        i->setGeometry(241,282,125,180);
-       // i->setScaledContents(true);
+        cantidad = 0;
+       barajear(cantidad);
+//        QPixmap mypix(":/Images/c01r.png");
+//        QLabel *i=new QLabel(this);
+//        i->setPixmap(mypix);
+//        i->setGeometry(241,282,125,180);
+//       // i->setScaledContents(true);
         ui->setupUi(this);
-        i->raise();
-        i->show();
+//        i->raise();
+//        i->show();
 
 }
 
@@ -100,17 +102,69 @@ void MainWindow::llenarDeCartas()
     //***EL IF MAS GRANDE DE LA HISTORIA***
 
 
+}
 
+void MainWindow::barajear(int cant)
+{
+    int random;
+    random = qrand() % 52;
+    if(cant == 52)
+        return;
 
-
-
-
-
-
-
-
-
-
-
+    if(todasLasCartas.Baraja[random]->getUsada()== true)
+    {
+        return barajear(cant);
+    }
+    else   if(todasLasCartas.Baraja[random]->getUsada()== false)
+    {
+        this->Barajeada[cant] = new Cartas();
+        this->Barajeada[cant] = todasLasCartas.Baraja[random];
+        todasLasCartas.Baraja[random]->setUsada(true);
+        return barajear(cant++);
+    }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

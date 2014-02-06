@@ -11,18 +11,17 @@ public:
     int getNumero();
     char getColor();
     char getPalo();
+    bool getUsada();
 
     void setNumero(int numero);
     void setColor(char color);
     void setPalo(char palo);
-
-    void addALista();
-    void buscarEnLista();
-    //Lista elementos;
+    void setUsada(bool usa);
 
 private:
 
     //Variables
+    bool usada;
     int numero;
     char color;
     char palo;
