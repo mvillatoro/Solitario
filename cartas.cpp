@@ -3,6 +3,7 @@
 Cartas::Cartas()
 {
     this->usada = false;
+    this->bocaAbajo = true;
 }
 
 char Cartas::getColor()
@@ -23,6 +24,13 @@ char Cartas::getPalo()
 bool Cartas::getUsada()
 {
     return this->usada;
+}
+
+bool Cartas::getBocaAbajo()
+{
+
+    return this->bocaAbajo;
+
 }
 
 QPixmap Cartas::getImagen()
@@ -51,6 +59,11 @@ void Cartas::setPalo(char palo)
 void Cartas::setUsada(bool usa)
 {
     this->usada = usa;
+}
+
+void Cartas::setBocaAbajo(bool bocaAbajo)
+{
+    this->bocaAbajo = bocaAbajo;
 }
 
 void Cartas::setImagen(QPixmap imagen)

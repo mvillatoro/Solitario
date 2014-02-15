@@ -16,11 +16,15 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="Images.qrc">
+    <normaloff>:/Images/x1.png</normaloff>:/Images/x1.png</iconset>
+  </property>
   <property name="autoFillBackground">
    <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-image: url(:/Images/x_fieltro_avengers.jpg);</string>
+   <string notr="true">border-image: url(:/Images/x_fieltro_vede.jpg);</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QLabel" name="escaleraCompleta1">
@@ -209,7 +213,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="Images.qrc">:/Images/x_back_avengers.png</pixmap>
+     <pixmap resource="Images.qrc">:/Images/x_back.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>

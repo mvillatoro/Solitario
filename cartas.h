@@ -13,6 +13,7 @@ public:
     char getColor();
     char getPalo();
     bool getUsada();
+    bool getBocaAbajo();
     QPixmap getImagen();
 
 
@@ -21,12 +22,14 @@ public:
     void setColor(char color);
     void setPalo(char palo);
     void setUsada(bool usa);
+    void setBocaAbajo(bool bocaAbajo);
     void setImagen(QPixmap imagen);
 
 private:
 
     //Variables
     bool usada;
+    bool bocaAbajo;
     int numero;
     char color;
     char palo;

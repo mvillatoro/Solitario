@@ -61,5 +61,6 @@
         <file>Images/x_fieltro_vede.jpg</file>
         <file>Images/x_happy_face.png</file>
         <file>Images/x_vacio.png</file>
+        <file>Images/x1.png</file>
     </qresource>
 </RCC>
