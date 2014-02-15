@@ -14,10 +14,10 @@
    </rect>
   </property>
   <property name="acceptDrops">
-   <bool>false</bool>
+   <bool>true</bool>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>SOLITARIO 5000</string>
   </property>
   <property name="windowIcon">
    <iconset resource="Images.qrc">
@@ -27,28 +27,29 @@
    <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">border-image: url(:/Images/x_fieltro_vede.jpg);</string>
+   <string notr="true">
+</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QLabel" name="escaleraCompleta1">
     <property name="geometry">
      <rect>
       <x>750</x>
-      <y>40</y>
-      <width>124</width>
-      <height>180</height>
+      <y>20</y>
+      <width>114</width>
+      <height>153</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>124</width>
-      <height>180</height>
+      <width>114</width>
+      <height>153</height>
      </size>
     </property>
     <property name="maximumSize">
      <size>
-      <width>124</width>
-      <height>180</height>
+      <width>114</width>
+      <height>153</height>
      </size>
     </property>
     <property name="cursor">
@@ -68,15 +69,21 @@
     <property name="geometry">
      <rect>
       <x>1090</x>
-      <y>40</y>
-      <width>124</width>
-      <height>180</height>
+      <y>20</y>
+      <width>114</width>
+      <height>153</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>124</width>
-      <height>180</height>
+      <width>114</width>
+      <height>153</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>114</width>
+      <height>153</height>
      </size>
     </property>
     <property name="cursor">
@@ -96,15 +103,21 @@
     <property name="geometry">
      <rect>
       <x>1260</x>
-      <y>40</y>
-      <width>124</width>
-      <height>180</height>
+      <y>20</y>
+      <width>114</width>
+      <height>153</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>124</width>
-      <height>180</height>
+      <width>114</width>
+      <height>153</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>114</width>
+      <height>153</height>
      </size>
     </property>
     <property name="cursor">
@@ -127,15 +140,21 @@
     <property name="geometry">
      <rect>
       <x>920</x>
-      <y>40</y>
-      <width>124</width>
-      <height>180</height>
+      <y>20</y>
+      <width>114</width>
+      <height>153</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>124</width>
-      <height>180</height>
+      <width>114</width>
+      <height>153</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>114</width>
+      <height>153</height>
      </size>
     </property>
     <property name="cursor">
@@ -155,9 +174,9 @@
     <property name="geometry">
      <rect>
       <x>410</x>
-      <y>40</y>
-      <width>124</width>
-      <height>180</height>
+      <y>20</y>
+      <width>114</width>
+      <height>153</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -166,10 +185,16 @@
       <verstretch>180</verstretch>
      </sizepolicy>
     </property>
+    <property name="minimumSize">
+     <size>
+      <width>114</width>
+      <height>153</height>
+     </size>
+    </property>
     <property name="maximumSize">
      <size>
-      <width>124</width>
-      <height>180</height>
+      <width>114</width>
+      <height>153</height>
      </size>
     </property>
     <property name="cursor">
@@ -192,12 +217,15 @@
     </property>
    </widget>
    <widget class="QLabel" name="cartasOcultas">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>240</x>
-      <y>40</y>
-      <width>124</width>
-      <height>180</height>
+      <y>20</y>
+      <width>114</width>
+      <height>153</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -206,11 +234,20 @@
       <verstretch>180</verstretch>
      </sizepolicy>
     </property>
+    <property name="minimumSize">
+     <size>
+      <width>114</width>
+      <height>153</height>
+     </size>
+    </property>
     <property name="maximumSize">
      <size>
-      <width>124</width>
-      <height>180</height>
+      <width>114</width>
+      <height>153</height>
      </size>
+    </property>
+    <property name="acceptDrops">
+     <bool>true</bool>
     </property>
     <property name="text">
      <string/>
@@ -226,21 +263,21 @@
     <property name="geometry">
      <rect>
       <x>240</x>
-      <y>250</y>
-      <width>124</width>
-      <height>180</height>
+      <y>200</y>
+      <width>114</width>
+      <height>153</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>124</width>
-      <height>180</height>
+      <width>114</width>
+      <height>153</height>
      </size>
     </property>
     <property name="maximumSize">
      <size>
-      <width>124</width>
-      <height>180</height>
+      <width>114</width>
+      <height>153</height>
      </size>
     </property>
     <property name="cursor">
@@ -260,15 +297,21 @@
     <property name="geometry">
      <rect>
       <x>580</x>
-      <y>250</y>
-      <width>124</width>
-      <height>180</height>
+      <y>200</y>
+      <width>114</width>
+      <height>153</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>124</width>
-      <height>180</height>
+      <width>114</width>
+      <height>153</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>114</width>
+      <height>153</height>
      </size>
     </property>
     <property name="cursor">
@@ -288,15 +331,21 @@
     <property name="geometry">
      <rect>
       <x>410</x>
-      <y>250</y>
-      <width>124</width>
-      <height>180</height>
+      <y>200</y>
+      <width>114</width>
+      <height>153</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>124</width>
-      <height>180</height>
+      <width>114</width>
+      <height>153</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>114</width>
+      <height>153</height>
      </size>
     </property>
     <property name="cursor">
@@ -316,15 +365,21 @@
     <property name="geometry">
      <rect>
       <x>750</x>
-      <y>250</y>
-      <width>124</width>
-      <height>180</height>
+      <y>200</y>
+      <width>114</width>
+      <height>153</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>124</width>
-      <height>180</height>
+      <width>114</width>
+      <height>153</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>114</width>
+      <height>153</height>
      </size>
     </property>
     <property name="cursor">
@@ -344,15 +399,21 @@
     <property name="geometry">
      <rect>
       <x>1090</x>
-      <y>250</y>
-      <width>124</width>
-      <height>180</height>
+      <y>200</y>
+      <width>114</width>
+      <height>153</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>124</width>
-      <height>180</height>
+      <width>114</width>
+      <height>153</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>114</width>
+      <height>153</height>
      </size>
     </property>
     <property name="cursor">
@@ -372,15 +433,21 @@
     <property name="geometry">
      <rect>
       <x>1260</x>
-      <y>250</y>
-      <width>124</width>
-      <height>180</height>
+      <y>200</y>
+      <width>114</width>
+      <height>153</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>124</width>
-      <height>180</height>
+      <width>114</width>
+      <height>153</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>114</width>
+      <height>153</height>
      </size>
     </property>
     <property name="cursor">
@@ -400,21 +467,21 @@
     <property name="geometry">
      <rect>
       <x>920</x>
-      <y>250</y>
-      <width>124</width>
-      <height>180</height>
+      <y>200</y>
+      <width>114</width>
+      <height>153</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>124</width>
-      <height>180</height>
+      <width>114</width>
+      <height>153</height>
      </size>
     </property>
     <property name="maximumSize">
      <size>
-      <width>124</width>
-      <height>180</height>
+      <width>114</width>
+      <height>153</height>
      </size>
     </property>
     <property name="cursor">
@@ -430,6 +497,48 @@
      <bool>true</bool>
     </property>
    </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1601</width>
+      <height>1221</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="acceptDrops">
+     <bool>true</bool>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/Images/x_fieltro_especial.png);</string>
+    </property>
+   </widget>
+   <zorder>widget</zorder>
+   <zorder>escaleraCompleta1</zorder>
+   <zorder>escaleraCompleta3</zorder>
+   <zorder>escaleraCompleta4</zorder>
+   <zorder>escaleraCompleta2</zorder>
+   <zorder>CartasMostradas</zorder>
+   <zorder>cartasOcultas</zorder>
+   <zorder>escalera1</zorder>
+   <zorder>escalera3</zorder>
+   <zorder>escalera2</zorder>
+   <zorder>escalera4</zorder>
+   <zorder>escalera6</zorder>
+   <zorder>escalera7</zorder>
+   <zorder>escalera5</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">

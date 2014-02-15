@@ -6,10 +6,7 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
-
-
-
-    int value = rand() % 52;
+    value = rand() % 52;
 
     //value = rand() % 52;
 
@@ -18,13 +15,14 @@ MainWindow::MainWindow(QWidget *parent) :
     barajear(cantidad,value);
     ui->setupUi(this);
     generarMillonesDeBurritos();
+
+
 }
 
 MainWindow::~MainWindow()
 {
     delete ui;
 }
-
 
 void MainWindow::on_actionAcerca_de_triggered()
 {
@@ -59,7 +57,6 @@ void MainWindow::barajear(int cant, int random)
 
 void MainWindow::generarMillonesDeBurritos()
 {
-
     QPixmap CardBack(":/Images/x_back.png");
 
     QPixmap ia;
@@ -82,7 +79,7 @@ void MainWindow::generarMillonesDeBurritos()
 
             QLabel *a = new QLabel(this);
             a->setPixmap(ia);
-            a->setGeometry(241+(i*170),282+(j*10),114,153);  //50
+            a->setGeometry(241+(i*170),232+(j*10),114,153);
             a->setScaledContents(true);
             a->raise();
             a->show();
@@ -91,7 +88,6 @@ void MainWindow::generarMillonesDeBurritos()
     }
 
 }
-
 
 void MainWindow::dragEnterEvent(QDragEnterEvent *event)
 {
@@ -106,9 +102,6 @@ void MainWindow::dragEnterEvent(QDragEnterEvent *event)
         event->ignore();
     }
 }
-
-
-
 
 void MainWindow::dragMoveEvent(QDragMoveEvent *event)
 {
@@ -152,8 +145,6 @@ void MainWindow::dropEvent(QDropEvent *event)
         event->ignore();
     }
 }
-
-
 
 //! [1]
 void MainWindow::mousePressEvent(QMouseEvent *event)

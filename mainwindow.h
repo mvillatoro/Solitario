@@ -3,7 +3,6 @@
 
 #include <QMainWindow>
 #include<stdlib.h>
-
 #include <QFrame>
 #include<time.h>
 #include "qpixmap.h"
@@ -17,12 +16,6 @@
 #include "qmimedata.h"
 #include "qdrag.h"
 #include "QPainter"
-
-//QT_BEGIN_NAMESPACE
-//class QDragEnterEvent;
-//class QDropEvent;
-//QT_END_NAMESPACE
-
 
 namespace Ui {
 class MainWindow;
@@ -47,6 +40,7 @@ private:
     int cantidad;
     void generarMillonesDeBurritos();
     void barajear(int cant, int random);
+    int value;
 
 
 
