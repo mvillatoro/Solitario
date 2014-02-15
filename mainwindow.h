@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include<stdlib.h>
+
 #include <QFrame>
 #include<time.h>
 #include "qpixmap.h"
@@ -11,11 +12,16 @@
 #include "barajas.h"
 #include "cartas.h"
 #include "qtoolbar.h"
+#include "QDragEnterEvent"
+#include "QDropEvent"
+#include "qmimedata.h"
+#include "qdrag.h"
+#include "QPainter"
 
-QT_BEGIN_NAMESPACE
-class QDragEnterEvent;
-class QDropEvent;
-QT_END_NAMESPACE
+//QT_BEGIN_NAMESPACE
+//class QDragEnterEvent;
+//class QDropEvent;
+//QT_END_NAMESPACE
 
 
 namespace Ui {
@@ -45,9 +51,9 @@ private:
 
 
     void dragEnterEvent(QDragEnterEvent *event);
-//    void dragMoveEvent(QDragMoveEvent *event);
-//    void dropEvent(QDropEvent *event);
-//    void mousePressEvent(QMouseEvent *event);
+    void dragMoveEvent(QDragMoveEvent *event);
+    void dropEvent(QDropEvent *event);
+    void mousePressEvent(QMouseEvent *event);
 };
 
 #endif // MAINWINDOW_H

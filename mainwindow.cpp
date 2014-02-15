@@ -6,6 +6,9 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
+
+
+
     int value = rand() % 52;
 
     //value = rand() % 52;
@@ -106,7 +109,7 @@ void MainWindow::dragEnterEvent(QDragEnterEvent *event)
 
 
 
-/*
+
 void MainWindow::dragMoveEvent(QDragMoveEvent *event)
 {
     if (event->mimeData()->hasFormat("application/x-dnditemdata")) {
@@ -134,6 +137,8 @@ void MainWindow::dropEvent(QDropEvent *event)
         QLabel *newIcon = new QLabel(this);
         newIcon->setPixmap(pixmap);
         newIcon->move(event->pos() - offset);
+        newIcon->setFixedSize(114,153);
+        newIcon->setScaledContents(true);
         newIcon->show();
         newIcon->setAttribute(Qt::WA_DeleteOnClose);
 
@@ -147,6 +152,8 @@ void MainWindow::dropEvent(QDropEvent *event)
         event->ignore();
     }
 }
+
+
 
 //! [1]
 void MainWindow::mousePressEvent(QMouseEvent *event)
@@ -188,8 +195,6 @@ void MainWindow::mousePressEvent(QMouseEvent *event)
         child->show();
         child->setPixmap(pixmap);
     }
-*/
 
 
-
-
+}
