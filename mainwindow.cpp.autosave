@@ -28,7 +28,6 @@ void MainWindow::on_actionAcerca_de_triggered()
 {
     QMessageBox *box;
     box = new QMessageBox();
-
     box->setText("Desarollado por Mario v. \n @maritoxvilla en twitter \n Para A.R.");
     box->show();
 }
@@ -65,7 +64,6 @@ void MainWindow::generarMillonesDeBurritos()
 
     for(int i = 0; i < 7 ; i++)
     {
-        //if(i ==  )
         for(int j = 0 ; j<=i ; j++)
         {
             if(j==i)

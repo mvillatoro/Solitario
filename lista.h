@@ -1,11 +1,11 @@
 #ifndef LISTA_H
 #define LISTA_H
-/*
-#include "cartas.h"
 
-class nodo{
-public:
-    Cartas naipe;
+#include "cartas.h"
+/*
+class nodo
+{
+    Cartas* naipe;
     nodo* sig;
     nodo* ant;
     nodo(Cartas val){  sig=ant=0;    this->naipe = new Cartas();         }

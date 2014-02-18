@@ -19,6 +19,8 @@ private:
     Barajas bar;
     Cartas card;
 
+        void generarMillonesDeBurritos();
+
 
 };
 

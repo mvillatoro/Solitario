@@ -16,6 +16,7 @@
 #include "qmimedata.h"
 #include "qdrag.h"
 #include "QPainter"
+#include "mylabel.h"
 
 namespace Ui {
 class MainWindow;
